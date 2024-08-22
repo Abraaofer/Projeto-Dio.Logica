@@ -5,14 +5,7 @@ function CalcularSaldo() {
      return saldo;
 }
 let SaldoDoHeroi = CalcularSaldo();
-
-
-
 let nivel;
-
-
-
-
 if (SaldoDoHeroi <10){
    
      nivel = "ferro"
@@ -34,8 +27,5 @@ else if (SaldoDoHeroi >=91 && SaldoDoHeroi <=100) {
 }else if (SaldoDoHeroi >=101) {
 
     nivel ="imortal";
-
-}
-  
-
+}  
 console.log(`Saldo do heroi é de ${SaldoDoHeroi} e estar no nivel de ${nivel}`)
